@@ -22,6 +22,6 @@ public class Cinema {
     }
     public void showInfo(){
         System.out.println("영화 제목: "+title);
-        System.out.println("남은 좌석: "+availableSeats);
+        System.out.println("남은 좌석: " + availableSeats + "석");
     }
 }
